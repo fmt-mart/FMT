@@ -64,10 +64,15 @@ p {
 }
 
 /*************************************Bosung*************************************/
-
 .fmt-logo{
   height: 100px;
   width: 100px;
+  border-radius: 100%;
+}
+
+.text{
+  font-size: 20px;
+  color: #002343;
 }
 
 .collapse{
@@ -228,8 +233,8 @@ p {
 
 .comment .text p{
   width: 70%;
+  height: 100%;
   margin: 0 auto;
-  font-size: 16px;
   line-height: 30px;
 }
 
@@ -270,7 +275,7 @@ p {
 #list-comment .item .name{
   text-align: center;
   margin-top: 13px;
-  font-size: 30px;
+  font-size: 20px;
   color: #002343;
   font-weight: bold;
 }
@@ -284,8 +289,9 @@ p {
 }
 
 #list-comment .item .text p{
-  font-size: 30px;
+  font-size: 20px;
   padding: 0px 50px;
+  width: 100%;
   text-align: center;
 }
 
@@ -301,7 +307,7 @@ p {
 
 @media (max-width: 468px){
   .comment .text p {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -311,11 +317,11 @@ p {
   }
 }
 
-@media (max-width: 468) {
+/* @media (max-width: 468) {
   .pricing .comment h2{
     width: 50%;
   }
-}
+} */
 
 
 /********************************************************************************/
