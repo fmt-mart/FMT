@@ -245,12 +245,12 @@ nav{
 
 .comment h2{
   text-align: center; 
+  margin-top: 100px;
   margin-bottom: 50px;
   font-size: 48px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   color: #002343;
-  margin-bottom: 20px;
 }
 
 .comment {
