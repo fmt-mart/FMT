@@ -1,3 +1,37 @@
+ <nav class="navbar main-nav fixed-top navbar-expand-lg large">
+      <div class="container"> 
+        <!-- <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="logo"></a> -->        
+        <div>
+          <img class="fmt-logo" src="images/image/fmt-logo.jpg" alt="">
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto" id="main-menu">
+            <li class="nav-item">
+              <a class="nav-link scrollTo active" href="#home">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollTo" href="#about">Về ứng dụng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollTo" href="#feature">Tính năng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollTo" href="#pricing">Nhận xét/Đánh giá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollTo" href="#team">Đội ngũ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollTo" href="#contact">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+        <label id="icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+    </nav>
+
 <section class="section testimonial bg-primary-shape" id="testimonial">
 	<div class="container">
 		<div class="row">

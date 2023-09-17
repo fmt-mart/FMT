@@ -24,48 +24,47 @@
     <link href="images/favicon.png" rel="shortcut icon" />
   </head>
 
-  <body class="body-wrapper">
-    <nav class="navbar main-nav fixed-top navbar-expand-lg large">
-      <div class="container">
-        <!-- <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="logo"></a> -->        
-        <div class="logo-text">
-          <!-- <h1 class="logo">FMT</h1>
-          <h2 class="text">APP LANDING PAGE</h2> -->
-          <img class="fmt-logo" src="images/image/fmt-logo.jpg" alt="">
-          <!-- <h2 class="text">Fmt-Siêu thị thông minh</h2> -->
-        </div>
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="ti-menu text-white"></span>
-      </button> -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto" id="main-menu">
-            <li class="nav-item">
-              <a class="nav-link scrollTo active" href="#home">Trang chủ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link scrollTo" href="#about">Về ứng dụng</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link scrollTo" href="#feature">Đặc trưng</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link scrollTo" href="#pricing">Đánh giá</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link scrollTo" href="#team">Đội</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link scrollTo" href="#contact">Liên hệ</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <body>
+  <nav class="main-nav fixed-top large">
+    <div class="fmt-logo">
+      <img src="./images/image/fmt-logo.jpg" alt="">
+    </div>   
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="nav-bar">
+      <ul>
+        <li class="nav-item">
+          <a class="nav-link scrollTo active" href="#home">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#about">Về ứng dụng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#feature">Tính năng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#pricing">Nhận xét/Đánh giá</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#team">Đội ngũ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#contact">Liên hệ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function(){
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    }  
+  </script>
     <!--=====================================
 =            Homepage Banner            =
 ======================================-->
@@ -83,8 +82,8 @@
                 <ul class="list-inline">
                   <li class="list-inline-item">
                     <a href="#" class="btn btn-download"
-                      ><i class="fa-brands fa-android"></i>
-                      <div>Get it on the<span>GOOGLE PLAY</span></div>
+                      ><i class="fa-brands fa-google-play"></i>
+                      <div>Available on the<span>Google play</span></div>
                     </a>
                   </li>
                   <li class="list-inline-item">
@@ -141,9 +140,11 @@
                 <div class="content">
                   <h5>Thiết kế đơn giản</h5>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete accounta
+                    Giao diện đơn giản thường xuất phát từ triết lý "ít là nhiều." 
+                    Điều này có nghĩa là chỉ bao gồm những yếu tố cần thiết và loại 
+                    bỏ những yếu tố dư thừa. Mục tiêu chính của giao diện đơn giản là 
+                    tối ưu hóa sự hiểu và sử dụng của người dùng, đồng thời giảm bớt sự 
+                    rối rắm và phức tạp.
                   </p>
                 </div>
               </div>
@@ -155,9 +156,11 @@
                 <div class="content">
                   <h5>Dễ dàng sử dụng</h5>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete accounta
+                    Giao diện dễ dàng sử dụng là một thành phần quan trọng trong thiết kế 
+                    sản phẩm hoặc ứng dụng, và nó có khả năng làm cho trải nghiệm của người 
+                    dùng trở nên thoải mái và hiệu quả hơn. Thiết kế giao diện dễ dàng sử dụng 
+                    không chỉ giúp người dùng tương tác một cách tự nhiên mà còn thúc đẩy sự hài 
+                    lòng và trung thành của họ với sản phẩm hoặc dịch vụ.
                   </p>
                 </div>
               </div>
@@ -169,9 +172,9 @@
                 <div class="content">
                   <h5>Trải nghiệm người dùng tốt nhất</h5>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete accounta
+                    Giao diện trải nghiệm người dùng tốt nhất (UX) là một yếu tố quan trọng trong thiết 
+                    kế sản phẩm và dịch vụ trong thế giới số hóa ngày nay. Nó không chỉ đảm bảo sự hài lòng 
+                    của người dùng mà còn có thể ảnh hưởng đến sự thành công và uy tín của doanh nghiệp hoặc sản phẩm.
                   </p>
                 </div>
               </div>
@@ -193,11 +196,10 @@
           <div class="col-12">
             <div class="section-title">
               <h2>Tính năng ứng dụng</h2>
-              <p>
-                Demoralized by the charms of pleasure of the moment, so blinded
-                by desire, that they cannot foresee idea of denouncing pleasure
-                and praising
-              </p>
+              <!-- <p>
+                Tính năng của một ứng dụng đóng vai trò quan trọng trong việc xác định giá trị và hữu ích 
+                của nó đối với người dùng. 
+              </p> -->
             </div>
           </div>
         </div>
@@ -207,15 +209,16 @@
             <div class="feature-item">
               <!-- Icon -->
               <div class="icon">
-                <i class="fa-solid fa-paint-roller"></i>
+                <i class="fa-solid fa-lemon"></i>
               </div>
               <!-- Content -->
               <div class="content">
-                <h5>Beautiful Interface Design</h5>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising
-                </p>
+                <h5>Đa dạng hàng hóa</h5>
+                <!-- <p>
+                  Trong thế giới hiện đại đầy thú vị này, đa dạng hàng hóa là một phần quan trọng của cuộc 
+                  sống hàng ngày của chúng ta. Từ những sản phẩm cơ bản cho đến những thứ xa xỉ và độc đáo, 
+                  đa dạng hàng hóa đã mang lại sự phong phú và tiện lợi cho mọi khía cạnh cuộc sống của chúng ta.
+                </p> -->
               </div>
             </div>
             <!-- Feature Item -->
@@ -226,11 +229,11 @@
               </div>
               <!-- Content -->
               <div class="content">
-                <h5>Unlimited Features</h5>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising
-                </p>
+                <h5>Ưu đãi đặc biệt</h5>
+                <!-- <p>
+                  Chính sách ưu đãi đặc biệt là một công cụ mạnh mẽ để doanh nghiệp, tổ chức, hoặc chính phủ có thể 
+                  sử dụng để tạo cơ hội và tạo giá trị cho khách hàng, nhân viên, hoặc cộng đồng. 
+                </p> -->
               </div>
             </div>
           </div>
@@ -239,15 +242,16 @@
             <div class="feature-item mb-0">
               <!-- Icon -->
               <div class="icon">
-                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-globe"></i>
               </div>
               <!-- Content -->
               <div class="content">
-                <h5>Full free chat</h5>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising
-                </p>
+                <h5>Mua hàng trực tuyến</h5>
+                <!-- <p>
+                  Mua hàng trực tuyến đã trở thành một phần không thể thiếu trong 
+                  cuộc sống hàng ngày của chúng ta. Đã đến lúc chúng ta cùng khám 
+                  phá tại sao mua sắm trực tuyến lại là lựa chọn thông minh và tiện lợi.
+                </p> -->
               </div>
             </div>
             <div class="app-screen">
@@ -265,11 +269,13 @@
               </div>
               <!-- Content -->
               <div class="content">
-                <h5>24/24 support by real people</h5>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising
-                </p>
+                <h5>Hoạt động 24/24</h5>
+                <!-- <p>
+                  Trong xã hội hiện đại ngày nay, hoạt động 24/24 đã trở thành một phần 
+                  không thể thiếu của cuộc sống hàng ngày của chúng ta. Điều này đánh dấu 
+                  một bước tiến quan trọng trong việc đáp ứng nhu cầu đa dạng và thời gian 
+                  linh hoạt của con người.
+                </p> -->
               </div>
             </div>
           </div>
@@ -278,15 +284,16 @@
             <div class="feature-item">
               <!-- Icon -->
               <div class="icon">
-                <i class="fa-solid fa-images"></i>
+                <i class="fa-solid fa-truck"></i>
               </div>
               <!-- Content -->
               <div class="content">
-                <h5>Retina ready greaphics</h5>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising
-                </p>
+                <h5>Giao hàng hỏa tốc</h5>
+                <!-- <p>
+                  Trong thế giới hiện đại đầy sự bận rộn và yêu cầu sự nhanh chóng, 
+                  dịch vụ giao hàng hỏa tốc đã trở thành một yếu tố quan trọng giúp 
+                  đáp ứng nhu cầu ngày càng cao về tốc độ và hiệu suất. 
+                </p> -->
               </div>
             </div>
             <!-- Feature Item -->
@@ -297,11 +304,12 @@
               </div>
               <!-- Content -->
               <div class="content">
-                <h5>IOS & android version</h5>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising
-                </p>
+                <h5>Hỗ trợ trên cả IOS và ANDROID</h5>
+                <!-- <p>
+                  Trong thế giới số hóa ngày nay, việc cung cấp hỗ trợ trên cả hai nền 
+                  tảng phổ biến nhất, iOS và Android, là một phần quan trọng của việc phục
+                  vụ mọi người trên toàn cầu.
+                </p> -->
               </div>
             </div>
           </div>
@@ -365,10 +373,10 @@
                       <div class="avatar">
                         <img
                           class="avatar1" 
-                          src="images/team/quynh.jpg" alt="">
+                          src="images/khachhang/duc.jpg" alt="">
                       </div>
                       <div class="name">
-                        Đinh Thị Ánh Quỳnh
+                        Trương Bùi Nguyên Đức
                       </div>
                       <div class="stars">
                         <span>
@@ -428,12 +436,11 @@
           <div class="col-lg-7">
             <div class="content-block">
               <!-- Title -->
-              <h2>Free Download Now</h2>
+              <h2>Tải xuống ngay bây giờ</h2>
               <!-- Desctcription -->
               <p>
-                Demoralized by the charms of pleasure of the moment, so blinded
-                by desire, that they cannot foresee idea of denouncing pleasure
-                and praising
+                Bạn chỉ cần một cú nhấp chuột hoặc một lần chạm vào màn hình để khám phá 
+                thế giới đầy thú vị mà chúng tôi mang đến. 
               </p>
               <!-- App Badge -->
               <div class="app-badge">
@@ -472,7 +479,7 @@
           <!-- Counter Number -->
           <h3><span class="count" data-count="29">0</span>k</h3>
           <!-- Counter Name -->
-          <p>Download</p>
+          <p>Lượt tải xuống</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
@@ -480,7 +487,7 @@
           <!-- Counter Number -->
           <h3><span class="count" data-count="200">0</span>k</h3>
           <!-- Counter Name -->
-          <p>Active Account</p>
+          <p>Tài khoản đang hoạt động</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
@@ -488,7 +495,7 @@
           <!-- Counter Number -->
           <h3><span class="count" data-count="60">0</span>k</h3>
           <!-- Counter Name -->
-          <p>Happy User</p>
+          <p>Người dùng ưng ý</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
@@ -498,7 +505,7 @@
             <span class="count" data-count="300">0</span>k<sup>+</sup>
           </h3>
           <!-- Counter Name -->
-          <p>Download</p>
+          <p>Con số tăng dần</p>
         </div>
       </div>
     </div>
@@ -516,11 +523,11 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title mb-4">
-              <h2 class="mb-3">Our Creative Team</h2>
+              <h2 class="mb-3">Đội ngũ sáng tạo của chúng tôi</h2>
               <p>
-                Demoralized by the charms of pleasure of the moment, so blinded
-                by desire, that they cannot foresee idea of denouncing pleasure
-                and praising
+                Đội ngũ sáng tạo là trái tim và linh hồn của một tổ chức hoặc dự án. 
+                Chúng tôi là những người tạo ra ý tưởng mới, thúc đẩy sự đổi mới, và làm 
+                nên sự khác biệt. 
               </p>
             </div>
           </div>
@@ -783,13 +790,14 @@
           <div class="col-lg-8 align-self-center">
             <div class="content">
               <div class="mb-4">
-                <h2>Subscribe Our Newsletter</h2>
+                <h2>Đăng ký để nhận thông báo từ chúng tôi</h2>
               </div>
               <div class="description">
                 <p>
-                  Demoralized by the charms of pleasure of the moment, so
-                  blinded by desire, that they cannot foresee idea of denouncing
-                  pleasure and praising
+                  Chúng tôi mong muốn giữ liên lạc một cách hiệu quả với quý khách hàng và đảm bảo 
+                  rằng bạn sẽ luôn được cập nhật về các thông tin quan trọng liên quan đến sản phẩm/dịch 
+                  vụ của chúng tôi. Điều này giúp bạn có trải nghiệm tốt hơn và sử dụng sản phẩm/dịch vụ 
+                  một cách hiệu quả hơn.
                 </p>
               </div>
               <form action="#">
@@ -797,7 +805,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Enter your email address"
+                    placeholder="Nhập đỉa chỉ email của bạn"
                   />
                   <div class="input-group-append">
                     <span class="input-group-text"><i class="fa-solid fa-arrow-right-long"></i></span>
@@ -858,13 +866,13 @@
             <!-- Footer Links -->
             <ul class="footer-links list-inline">
               <li class="list-inline-item">
-                <a class="scrollTo" href="#about">ABOUT</a>
+                <a class="scrollTo" href="#about">VỀ ỨNG DỤNG</a>
               </li>
               <li class="list-inline-item">
-                <a class="scrollTo" href="#team">TEAM</a>
+                <a class="scrollTo" href="#team">ĐỘI NGŨ</a>
               </li>
               <li class="list-inline-item">
-                <a class="scrollTo" href="#contact">CONTACT</a>
+                <a class="scrollTo" href="#contact">LIÊN HỆ</a>
               </li>
             </ul>
           </div>
@@ -884,6 +892,5 @@
     <script src="plugins/bootstrap/bootstrap.min.js"></script>
     <script src="plugins/slick/slick.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/script.js"></script>
   </body>
 </html>
