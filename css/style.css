@@ -357,6 +357,7 @@ nav{
 /********************************************************************************/
 
 /**********************************Video******************************/
+
 @media (max-width: 768px) {
   .col-12 .video video{
     width: 100%;
@@ -1069,7 +1070,7 @@ a{
   color: #0e79c9;
 }
 
-.about .about-block .about-item .content {
+.about .about-block .about-item {
   margin-left: 30px;
 }
 
@@ -1609,7 +1610,7 @@ a{
   }
 }
 
-.featured-article article.featured .content {
+.featured-article article.featured {
   margin-left: 30px;
   flex-basis: 100%;
   align-self: center;
