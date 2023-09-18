@@ -361,6 +361,7 @@ nav{
   .col-12 .video video{
     width: 360px;
     height: 200px;
+    text-align: center;
   }
 }
 
