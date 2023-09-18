@@ -222,6 +222,7 @@ nav{
   margin-bottom: 30px;
 }
 
+
 @media (max-width: 768px) {
   .col-md-4 .image-block{
     text-align: center;
@@ -234,6 +235,7 @@ nav{
     margin-bottom: -20px;
   }
 }
+
 
 @media (max-width: 768px){
   .col-lg-7 .content-block{
@@ -1017,7 +1019,7 @@ a{
   line-height: 70px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: -2.2px;
   margin-bottom: 30px;
 }
 
