@@ -357,16 +357,9 @@ nav{
 /********************************************************************************/
 
 /**********************************Video******************************/
-.video .poster{
-  background: #002343;
-  width: 350px;
-  width: 200px;
-
-}
-
 @media screen and (max-width: 768px) {
   .col-12 .video video{
-    width: 350px;
+    width: 360px;
     height: 200px;
   }
 }
