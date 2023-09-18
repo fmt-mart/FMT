@@ -126,10 +126,6 @@ nav{
   transition: color 0.3s ease-in-out;
 }
 
-.nav-bar ul li a.active{
-  background:  #fed36a;
-}
-
 @media only screen and (max-width: 768px){
   nav{
     padding: 0 50px;
