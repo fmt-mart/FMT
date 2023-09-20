@@ -997,18 +997,6 @@ a{
   margin-left: 50px;
 }
 
-/* @media (max-width: 768px) {
-  .content-block{
-    margin-left: 30px;
-  }
-}
-
-@media (max-width: 480px) {
-  .content-block{
-    margin-left: 0;
-  }
-} */
-
 .banner .content-block h1,
 .banner .content-block h5 {
   color: #ffffff;
