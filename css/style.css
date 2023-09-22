@@ -384,7 +384,7 @@ nav{
 @media (max-width: 768px) {
   .col-12 .video video{
     width: 100%;
-    height: 200px;
+    height: 250px;
   }
 }
 
@@ -502,7 +502,6 @@ ul.rating li {
   left: 0;
   right: 0;
   bottom: 0;
-
 }
 
 a {
@@ -1036,15 +1035,38 @@ a{
 
 .phone-thumb {
   max-height: 550px;
+  width: 400px;
 }
 
 .phone-thumb-md {
   max-height: 600px;
+  width: 515px;
 }
 
 @media (max-width: 768px) {
   .about .image-block {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 .phone-thumb {
+    max-height: 500px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-lg-4 .phone-thumb {
+    max-height: 500px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px){
+  .about .phone-thumb-md{
+    max-height: 600px;
+    width: 415px;
   }
 }
 
