@@ -219,7 +219,7 @@ nav{
 .row3{
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 
@@ -1041,6 +1041,16 @@ a{
 .phone-thumb-md {
   max-height: 600px;
   width: 515px;
+}
+
+.col-lg-5 .phone-thumb{
+  max-height: 580px;
+  width: 350px;
+}
+
+.col-lg-4 .phone-thumb{
+  max-height: 580px;
+  width: 350px;
 }
 
 @media (max-width: 768px) {
